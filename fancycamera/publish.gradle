@@ -1,9 +1,8 @@
 apply plugin: 'maven-publish'
-apply plugin: 'com.jfrog.bintray'
+// apply plugin: 'com.jfrog.bintray'
 
 group 'com.github.triniwiz.fancycamera'
 version '3.0.0-alpha19'
-
 
 afterEvaluate {
     publishing {
@@ -23,6 +22,7 @@ afterEvaluate {
 }
 
 
+/*
 def properties = new Properties()
 properties.load(new FileInputStream(project.rootProject.file('local.properties')))
 
@@ -48,3 +48,4 @@ bintray {
         }
     }
 }
+*/
